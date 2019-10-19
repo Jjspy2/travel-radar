@@ -1,0 +1,143 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="stylesheet" type="text/css" href="lib/slick-1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="lib/slick-1.8.1/slick/slick-theme.css"/>
+
+  <meta name="theme-color" content="#fafafa">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<div class="nav-wrapper blue darken-3" style="height: 30px;">
+  <ul class="right">
+    <!--<li style="vertical-align: top;"><a class="button"><i class="material-icons white-text">person_outline</i><a
+    class="white-text">Login</a></a></li>-->
+  </ul>
+</div>
+<nav>
+  <div class="nav-wrapper white">
+    <a href="#" style="margin-left: 25px; margin-top: -5px;" class="brand-logo left"><img width="150px" height="50px"
+                                                                                          src="img/logo.png"></a>
+    <ul id="nav-mobile" class="right">
+      <li
+        style="padding-left: 30px; padding-right: 30px; border-left: 0.5px solid lightgrey; border-right: 0.5px solid lightgrey">
+        <a class="black-text">HOME</a></li>
+      <li style="padding-left: 30px; padding-right: 30px; border-right: 0.5px solid lightgrey"><a class="black-text">AVIATIONS</a>
+      </li>
+      <li style="padding-left: 30px; padding-right: 30px; border-right: 0.5px solid lightgrey"><a class="black-text">TRAVEL</a>
+      </li>
+      <li style="padding-left: 30px; padding-right: 30px; border-right: 0.5px solid lightgrey"><a class="black-text">LOYALTY</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!--For top container-->
+<div>
+  <div class="column right" style="display: inline-block">
+    <div class="row">
+      <img src="img/bg-1.jpg" alt="Nature" width="265" height="93px" onclick="myFunction(this);">
+    </div>
+    <div class="row">
+      <img src="img/bg-2.jpg" alt="Snow" width="265" height="93px" onclick="myFunction(this);">
+    </div>
+    <div class="row">
+      <img src="img/bg-3.jpg" alt="Mountains" width="265" height="93px" onclick="myFunction(this);">
+    </div>
+    <div class="row">
+      <img src="img/bg-4.jpg" alt="Lights" width="265" height="93px" onclick="myFunction(this);">
+    </div>
+  </div>
+
+
+  <div class="container left" style="margin-left: 15px; margin-top: -468px; display: inline-block">
+    <img id="expandedImg" style="width:80%; height: 100%;">
+
+    <div id="imgtext"></div>
+  </div>
+</div>
+
+<!--For the slideshow-->
+<div class="slideshow">
+  <div><img src="img/bg-1.jpg" width="265" height="93px" alt="Snow"></div>
+  <div><img src="img/bg-2.jpg"width="265" height="93px"  alt="Snow"></div>
+  <div><img src="img/bg-3.jpg"width="265" height="93px"  alt="Snow"></div>
+</div>
+
+<script type="text/javascript" src="lib/slick-1.8.1/slick/slick.min.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+<main></main>
+
+<footer class="page-footer blue darken-3">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Footer Content</h5>
+        <p class="grey-text text-lighten-4">Travel Radar</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">tr 1</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+  </div>
+</footer>
+
+</html>
